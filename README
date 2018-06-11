@@ -1,0 +1,7 @@
+
+1. install nodejs
+  - refer to: https://nodejs.org/en/
+
+2. -> node hello-world.js
+
+3. open browser, and input url: "localhost:3000"
