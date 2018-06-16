@@ -1,0 +1,8 @@
+1. Node.js uses asynchronous programming. So requests get served in a very
+   responsive way!!
+2. Node.js runs a single serving thread, very memory efficient.
+3. import a library
+    var http = require('http');
+4. Node.js built-in modules/libraries
+    - HTTP             (http request, http response)
+    - URL              (parse query string)
