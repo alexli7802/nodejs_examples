@@ -8,7 +8,7 @@ rs.on('open', ()=>{
 /*
 Events modules
 - Node.js built-in module (create/fire/listen-for user events)
--
+- EventEmitter
 */
 var events = require('events');
 var eventEmitter = new events.EventEmitter();
