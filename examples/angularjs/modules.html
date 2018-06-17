@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div ng-app="myApp" w3-test-directive></div>
+
+    <script>
+    var app = angular.module("myApp", []);
+
+    app.directive("w3TestDirective", function() {
+        return {
+            template : "I was made in a directive constructor!"
+        };
+    });
+    </script>
+  </body>
+</html>
